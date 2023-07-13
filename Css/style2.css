@@ -1,0 +1,237 @@
+.container{
+    display: grid;
+    height: 50px;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(36, 34, 34);
+}
+/* left side image 1 */
+.flex1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+    padding-top: 0px !important;
+  
+}
+.flex1 img{
+    width: 85px;
+    padding-left: 25px;
+    margin-top: 5px;
+    height: 45px;
+} 
+.b img{
+  height: 45px;
+  width: 65px;
+}
+/* right side1*/
+.flex2{
+    display: flex;
+    justify-content: right  ;
+    align-items: center;
+    padding-right: 30px;
+    gap: 20px;
+    color: white;
+
+
+}   
+.flex2 img{
+    width: 86px;
+    padding-left: 15px;
+}
+.Store span{
+    padding-left: 20px;
+}
+.contact span{
+    padding-left: 20px;
+}
+.login span{
+    padding-left: 20px;
+}
+.vl{
+    border:1px solid white;
+    height: 20px;
+}
+.love:hover{
+    color: red;
+    cursor: pointer;
+}
+.cart:hover{
+    color: rgb(235, 52, 52);
+    cursor: pointer;
+}
+
+.right span:hover{
+    color: rgb(251, 255, 9);
+    cursor: pointer;
+}
+/* 3rdpart */
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+}
+.flex3{
+    display: flex;
+}
+.flex3 img{
+ /* allen image */
+    width: 222px;
+    height: 53px;
+    margin-left: 45px;
+    margin-top: 23px;
+}
+/* left side2 */
+.flex4{
+    display: flex;
+    gap: 5px;
+    margin-top: 45px;
+}
+/* links section */
+.n a{
+    text-decoration: none;
+    margin-left: 25px;
+    color: rgb(5, 5, 5);
+
+}
+/* ?placeholdersection */
+.searchm{
+    display: flex;
+}
+.search{
+    margin-top: 43px;
+    border-bottom: 1px solid black;
+
+}
+input{
+    border: none;
+}
+.n a:hover{
+    color: rgb(243, 52, 18);
+}
+/* backgrround section */
+.back{
+    background-image: url(../Images/pretty-young-stylish-sexy-woman-pink-luxury-dress-summer-fashion-trend-chic-style-sunglasses-blue-studio-background-shopping-holding-paper-bags-talking-mobile-phone-shopaholic\ \(1\).jpg);
+    height: 820px;
+    background-size: 100%;
+    margin-top: 28px;
+    display: flex;
+    justify-content: right;
+    background-repeat: no-repeat;
+}
+/* content */
+.nmain{
+    text-align: center;
+    padding: 120px;
+    font-size: 40px;
+    margin-right: 50px;
+}
+
+ 
+.nmain a{
+    text-decoration: none;
+    border: 2px solid white;
+    color: black;
+    padding: 20px 20px;
+    font-size: 20px;
+
+}
+.nmain a:hover{
+    background-color: black;
+    color: white;
+}
+
+#head3{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+}
+/* round image section */
+.lasts{
+    display: flex;
+    padding-left: 150px;
+    flex-wrap: wrap;
+    gap: 34px;
+    margin-top: 35px;
+}
+.i,.j,.k,.l,.m{
+    text-align: center;
+    color: #0e3051;
+}
+/* qr section */
+.yellow{
+    background-color: rgb(249, 231, 159);
+    display: flex;
+    height: 225px;
+    width: 100%;
+}
+.yellowlabel1 h2{
+    color: #0e3051;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Inter,Open Sans,Bebas Neue,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,serif,Arial,sans-serif;
+    font-size: 30px;
+    padding-left: 84px;
+}
+.yellowlabel1 p{
+    font-family:  Helvetica Neue,Helvetica,Arial,sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #505051;
+    
+}    
+.usecode{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.use-code p{
+    font-size: 14px;
+    color: #505051;
+    font-family: Gotham Book;
+}
+.yellowlabel2{
+    padding-left: 84px;
+
+}
+.yellowlabel3{
+    padding-left: 84px;
+    display: flex;
+    margin-bottom: 16px;
+    gap: 7px;
+}
+
+.code p{
+    border: 2px dotted rgb(0, 0, 0);
+    background-color: yellow;
+    margin-top: 9px;
+    gap: 9px;
+}
+.yellowlabel3 p{
+    margin-top: 9px;
+}
+.apple, .playstore{
+    margin-bottom: 9px;
+    gap: 9px;
+}
+.yellowsec2 img{
+    height: 176px;
+}
+.yellowsec2 p{
+    margin-bottom: 65px;
+}
+.yellowsec2{
+    padding-left: 17px;
+    margin-left: 49px;
+}
+.yellowsec3 img{
+    height: 200px;
+    width: 338px;
+    padding-left: 265px;
+    margin-top: 26px ;
+}
+.playstore img{
+    height: 48px;
+    width: 115px;
+    padding-bottom: 35px;
+}
